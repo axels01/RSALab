@@ -1,23 +1,20 @@
-
+#Implements a function for testing whether a number is prime or not.
 def isPrime(a):
     if a < 2:
         return False
     elif a == 2:
         return True
-    elif getRemainder(a) == 0:
+    elif a % 2 == 0:
         return False
     
     else:
         for i in range(3, a, 2):
-            if getRemainder(a, i) == 0:
+            if a % i == 0:
                 return False
             if i > a // 2:
                 break
         return True
 
-
-def getRemainder(a, b = 2):
-    return (a - b * (a // b))
 
 if __name__ == "__main__":
     primes = [
