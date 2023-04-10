@@ -151,8 +151,8 @@ encryption, what would be the resulting cipher text? (Show your calculation)
 
     gcd(5, 1368) = 1
 
-    c = m^e mod N = 15^5 mod 1463 = 1134
+    c = m^e mod N = 15^5 mod 1463 = 78
 
-    cipher = 1134
+    cipher = 78
 
 '''
