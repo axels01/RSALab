@@ -97,7 +97,7 @@ def UI():
         return"Return: " + str(eulerPhi(num))
 
     elif (choice == "4"):
-        print("Function: modInv, enter two numbers in format \"e,mod\" without spaces:","\n")
+        print("Function: modInv, enter two numbers in format \"e,mod\" without spaces:")
         nums = input()
         e = nums.split(",")[0]
         try:
@@ -113,12 +113,11 @@ def UI():
         
 
 if __name__ == "__main__":
-    #while True:   
-        #print(UI())
-        #input("Press Enter to continue...\n")
+    while True:   
+        print(UI())
+        input("Press Enter to continue...\n")
 
-        #print("--------------------------------------")
-        pass
+        print("--------------------------------------")
 
 '''
 Question 1: What information in RSA an attacker may have access to? And
